@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>dotnet-purge</AssemblyName>
+    </PropertyGroup>
+    
+    <PropertyGroup>
+        <PackageId>DotnetPurge</PackageId>
+        <Authors>Joren Thijs</Authors>
+        <PackAsTool>true</PackAsTool>
+        <PackageType>DotnetCliTool</PackageType>
+        <PackageOutputPath>./nupkg</PackageOutputPath>
+    </PropertyGroup>
+
+</Project>
